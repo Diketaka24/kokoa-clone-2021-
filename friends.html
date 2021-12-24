@@ -5,31 +5,212 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends- Kokoa Clone</title>
+    <title>Wallet- CryptoMetrics</title>
 </head>
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fas fa-wifi"></i>
+            <span>Bullish</span>
+            <i class="fas fa-chart-line"></i>
         </div>
         <div class="status-bar__column">
-            <span>18:43</span>
+            <span>Open 24 Hours</span>
         </div>
         <div class="status-bar__column">
             <span>100%</span> 
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
+            <i class="fas fa-coins"></i>
+            <i class="fas fa-hand-holding-usd fa-lg"></i>
         </div>
     </div>
 
+    <header class="screen-header">
+        <h1 class="screen-header__title">Wallet</h1>
+        <div class="screen-header__icons">
+          <span><a href="find.html"><i class="fas fa-search fa-lg"></i></a></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Asset Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+
+    <main class="friends-screen">
+      
+      <div class="friends-screen__channel-header">
+        <span>Assets</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+    </div>
+
+        <!--<div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/Bitcoin.png"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Bitcoin</h4>
+                <h6 class="user-component__subtitle">Decentralized Digital Currency: Market Cap Rank #1</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div>
+                <span>Deposit</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  <div></div>
+                  <span>Withdraw</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+            </div>
+          </div>
+          <div class="friends-screen__channel">
+              <div class="friends-screen__channel-header">
+                  <span></span>
+              </div>-->
+
+              <div class="user-component">
+                <div class="user-component__column">
+                  <img
+                    src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/Bitcoin.png"
+                    class="user-component__avatar user-component__avatar--sm"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title-not-bold">Bitcoin</h4>
+                    <h6 class="user-component__subtitle--channel">Decentralized Digital Currency: Market Cap Rank #1</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <div>
+                    <span>Deposit</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  <div></div>
+                  <span>Withdraw</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="friends-screen__channel-header">
+                <span></span>
+            </div>
+
+              <div class="user-component">
+                <div class="user-component__column">
+                  <img
+                    src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/Ethereum.png"
+                    class="user-component__avatar user-component__avatar--sm"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title-not-bold">Ethereum</h4>
+                    <h6 class="user-component__subtitle--channel">Decentralized, open-source blockchain with smart contract functionality: Market Cap Rank #2</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <div>
+                    <span>Deposit</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  <div></div>
+                  <span>Withdraw</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="friends-screen__channel-header">
+                <span></span>
+            </div>
+
+
+              <div class="user-component">
+                <div class="user-component__column">
+                  <img
+                    src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/Ripple.png"
+                    class="user-component__avatar user-component__avatar--sm"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title-not-bold">Ripple</h4>
+                    <h6 class="user-component__subtitle--channel">Real-time gross settlement system, currency exchange and remittance network: Market Cap Rank #7</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <div>
+                    <span>Deposit</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <div></div>
+                    <span>Withdraw</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                  </div>   
+                </div>
+              </div>
+              <div class="friends-screen__channel-header">
+                <span></span>
+            </div>
+
+              <div class="user-component">
+                <div class="user-component__column">
+                  <img
+                    src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/polkadot.png"
+                    class="user-component__avatar user-component__avatar--sm"
+                  />
+                  <div class="user-component__text">
+                    <h4 class="user-component__title-not-bold">Polkadot</h4>
+                    <h6 class="user-component__subtitle--channel">Open source, blockchain platform and cryptocurrency that allows for distributed computing: Market Cap Rank #11</h6>
+                  </div>
+                </div>
+                <div class="user-component__column">
+                  <div>
+                    <span>Deposit</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <div></div>
+                    <span>Withdraw</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                  </div>
+                    
+                </div>
+              </div>
+              <div class="friends-screen__channel-header">
+                <span></span>
+            </div>
+
+            <div class="user-component">
+              <div class="user-component__column">
+                <img
+                  src="file:///Users/danielkim/Desktop/kokoa-clone-2021-/USDT.png"
+                  class="user-component__avatar user-component__avatar--sm"
+                />
+                <div class="user-component__text">
+                  <h4 class="user-component__title-not-bold">TetherUS</h4>
+                  <h6 class="user-component__subtitle--channel">Stablecoin designed to always be worth US $1.00</h6>
+                </div>
+              </div>
+              <div class="user-component__column">
+                <div>
+                  <span>Deposit</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                  <div></div>
+                  <span>Withdraw</span>
+                  <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+                  
+              </div>
+            </div>
+            <div class="friends-screen__channel-header">
+              <span></span>
+          </div>
+
+          </div>
+    </main>
+
+    
+
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">
-                <span class="nav__notification">1</span><i class="far fa-comment fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-wallet fa-2x"></i></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
                 <span class="nav__dot"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
         </ul>
     </nav>

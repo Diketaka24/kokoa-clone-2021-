@@ -1,7 +1,4 @@
 .status-bar {
-    position:fixed;
-    top:0;
-    width:100%;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
@@ -21,6 +18,6 @@
     justify-content: flex-end;
     align-items: center; 
 }
-.status-bar__column .fa-battery-full{
+.status-bar__column .fa-coins{
     margin: 0px 8px;
 }
